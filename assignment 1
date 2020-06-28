@@ -1,0 +1,33 @@
+### Problem #2 :  play with directory 
+
+### create a directory without name from command line
+
+mkdir " "   or      mkdir "/n"
+
+
+####  create a directory with name "-okgoogle"
+
+mkdir " -okgoogle"
+
+
+### Problem #1     Block System call : 
+
+
+### block system call for date command 
+### that means you don't have to uninstall date command but if you run kernel must not accept
+
+
+which date
+cd /usr/bin
+rm date
+date
+
+
+
+### do the same Firefox as well
+#### same as date
+  
+which firefox 
+cd /usr/bin
+rm firefox
+firefox
