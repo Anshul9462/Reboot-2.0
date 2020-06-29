@@ -1,0 +1,43 @@
+###Problem 3
+####You are only allowed to use a single command and only one time
+
+mkdir -p A/{B/{G/K/Reboot.txt,H/N/Reboot.txt},C/{I/N/Reboot.txt,J/L/Reboot.txt},D/{F/L/Reboot.txt,E/M/Reboot.txt}}
+tree A
+
+
+
+###Problem 4 
+####create two users name jack and Jill  from command line
+
+useradd jack
+useradd jill
+
+###login with jack user and create a file name  jack.txt using vim editor and write "hello jack"
+
+
+su - jack
+vim jack.txt
+insert for i
+hello jack
+esc
+:wq!
+
+
+###from jack user also create two directories name jack1 & jack2
+
+#in jack
+mkdir jack1 jack2
+
+###now login from Jill user and create a file. Jill.txt using vim editor and write "hey jiil"
+
+su - jill
+vim jill.txt
+insert for i
+hello jill
+esc
+:wq!
+
+###from Jill also create two directoires named jill1 & jill2
+
+#in jill
+mkdir jill1 jill2
