@@ -1,0 +1,17 @@
+###  Problem #5 :  play with files and directories 
+
+###  create  3 files named   abc.txt  ok  fine  g.txt  /tmp directory
+
+cd /tmp
+ls
+touch abc.txt g.txt 
+touch  ok\ fine
+ls
+
+
+### create  4  directories   aa aaa aaaa  under  /tmp directory 
+
+cd /tmp 
+ls
+mkdir aa aaa aaaa 
+ls
